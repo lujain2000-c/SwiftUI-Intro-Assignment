@@ -9,13 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .center,spacing: 200){
+        VStack(alignment: .center,spacing: 90){
             Text("What's New in Shortcute")
                 .font(.largeTitle)
                 
                 .bold()
-                
-                
             
             VStack(alignment: .leading, spacing: 10) {
                 HStack{
@@ -54,6 +52,7 @@ struct ContentView: View {
                     
                 }
             }
+            Spacer()
             
             Button("continue") {
                       
